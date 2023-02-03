@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: gray;
+  }
+  .wrapper {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 20%;
+  }
+  .wrapper-1 {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 70%;
+  }
+  
+  .container {
+    width: 100%;
+    background-color: black;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .container-1 {
+    width: 100%;
+    background-color: black;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .container:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #ffffff;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+  }
+  .container-1:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #ffffff;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+  }
+  .container p {
+    color: #fdd8d8;
+    line-height: 2;
+    font-size: 18px;
+  }
+  .container-1 p {
+    color: #fdd8d8;
+    line-height: 2;
+    font-size: 18px;
+  }
+  .container h3 {
+    color: #ffffff;
+    margin: 20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .container-1 h3 {
+    color: #ffffff;
+    margin: 20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .container  button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+  }
+  .container-1  button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+  }
