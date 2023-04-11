@@ -1,5 +1,6 @@
 
 const form = [...document.querySelector('.form').children];
+prompt("what is ur name")
 
 form.forEach((item, i) => {
     setTimeout(() => {

@@ -78,18 +78,18 @@ var app={
         },
         score:0,
         scoreCard:function(){
-           // scoreCard.innerHTML=this.questions.length + "/" + this.score;
+           scoreCard.innerHTML=this.questions.length + "/" + this.score;
             var finalScore =  this.score ;
             scoreCard.innerHTML= finalScore + "/" + this.questions.length;
             if(this.index===this.questions.length-1 && this.score>=3){
                 resultOp.innerHTML="Quiz Completed! , you look fine and might have temproray anxiety issue let us connect you with our counseller." ;
-                    // ul.style.display="none";
-                    // nextButton.style.display="none";
+                    ul.style.display="none";
+                    nextButton.style.display="none";
             }
             else if(this.index===this.questions.length-1 && this.score<3) {
                 resultOp.innerHTML="Quiz Completed! looks problemetic";
-                // ul.style.display="none";
-                // nextButton.style.display="none";
+                ul.style.display="none";
+                nextButton.style.display="none";
             
         }
         },
@@ -100,12 +100,12 @@ var app={
         //     ul.style.display="none";
         //     nextButton.style.display="none";
         // }
-        // else{
+        // else {
         //     quizbox.innerHTML="Quiz Completed! looks problemetic";
         //     ul.style.display="none";
         //     nextButton.style.display="none";
         // }
-}
+    }
 
 window.load=app.load();
 
