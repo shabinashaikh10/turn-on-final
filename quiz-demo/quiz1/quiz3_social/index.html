@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Quiz-Application/social Anxiety</title>
+</head>
+<body>
+    <video class="backvideo" autoplay loop muted plays-inline>
+        <source src="nature.mp4" type="video/mp4" />
+      </video> 
+    <div class="quiz-wrapper">       
+        <div id="questionBox" class="question">
+            Sample Question
+        </div>
+        <div class="options">
+            <ul id="ul">
+                <li id="opt1" onclick="button(this)"></li>
+                <li id="opt2" onclick="button(this)"></li>
+                <!-- <li id="opt3" onclick="button(this)"></li>
+                <li id="opt4" onclick="button(this)"></li> -->
+            </ul>
+        </div>
+        <div class="score">
+            <div class="next">
+                <button id="btnNext" type="button" onclick="next()">
+                  Next
+                </button>
+            </div>
+            <div class="score-card" style="color: transparent;">
+                SCORE: <span id="scoreCard" style="color: transparent;">0</span>
+            </div>
+            <div>
+                <h1 id="result">Don't let the fear of what could happen make nothing happen!</h1>
+            </div>
+           
+
+        </div>
+        
+    </div>
+    <div >
+        <h1 style="color: white;font-size: small;">This quiz is NOT a diagnostic tool. Mental health disorders can only be diagnosed by a licensed mental health provider or doctor.
+
+            Turn On Ease believes assessments can be a valuable first step toward getting treatment. All too often people stop short of seeking help out of fear their concerns aren't legitimate or severe enough to warrant professional intervention.</h1>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
